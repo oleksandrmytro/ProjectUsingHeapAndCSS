@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, red, black);
+    -fx-background-image: url("123123.jpg");
+    -fx-background-size: 100%;
+}
+
+.web-view {
+    -fx-background-color: #000;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+
+.list-cell:filled:odd {
+    -fx-background-color: #FFD500;
+}
+
+.list-cell:filled:even {
+    -fx-background-color: #005BBB;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent;
+}
+
+#typIteratoraLbl {
+    -fx-text-fill: red;
+}
+
+#doNotPushBtn {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 50px;
+}
+
+#doNotPushBtn:hover {
+    -fx-text-fill: black;
+}
+
+.list-cell:selected:focused {
+    -fx-background-color: black;
+    -fx-text-fill: red;
+}
+
+.button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.choice-box {
+    -fx-background-color: white;
+}
+
+.choice-box .label {
+    -fx-text-fill: black;
+}
+
+.choice-box .label:hover {
+    -fx-text-fill: black;
+}
+
+.choice-box:hover {
+    -fx-background-color: #ff4f4f;
+}
